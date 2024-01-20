@@ -4,7 +4,7 @@ import logoImgUrl from '../../img/logo.png';
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img className="logo" src={logoImgUrl} alt="Pet+ Logo" />
